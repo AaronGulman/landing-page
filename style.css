@@ -5,7 +5,6 @@ body {
         display: flex;
 	flex-direction: column;
 	font-family: Roboto, sans-serif;
-	overflow: hidden;
 
     }
 
@@ -17,9 +16,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0;
-	padding: 0 40px;
-	
-
+	padding: 0 200px;
 }
 
 .logo {
@@ -39,19 +36,143 @@ a {
 	color: white;
 
 }
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+	padding: 0 200px;
+	flex:1;
+	background-color: black;
+	color: white;
+}
+.content {
+	max-width: 40%;
+	font-size: 80;
+}
+
+.mainsite {
+	color: lightgray;
+}
+
+.info {
+	font-size: 20px;
+	font-weight: 900;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.middle-body {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	text-align: center;
+
+}
+.middle {
+	flex: 0;
+	padding: 30px;
+	justify-content: center;
+	
+}
+.card {
+	border: 5px solid rgb(0, 149, 255);
+	display: flex;
+	width: 30%;
+	padding: 40px;
+	flex: 0;
+
+}
+
+.cardy {
+	text-align: center;
+	
+}
+
+.button-up {
+	background: rgb(9, 128, 213);
+	color: white;
+	border: 3px solid rgb(9, 128, 213);
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 15px;
+}
 
 
 .quote {
 	background-color: lightgray;
+	
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0 200px;
+	flex:1;
+	text-align: center;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+h3 {
+	text-align: right;
+	margin-top: 70px;
+}
+
+.signup-box {
+	background: rgb(21, 132, 244);
+	padding: 0 200px;
+    	margin: 60px 200px;
+	flex:1;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	
 }
 
 .signup {
-	background: rgb(21, 132, 244);
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h4 {
 	color: white;
+	font-size: 20px;
+	margin-bottom: 0;
+
+}
+.signup-text {
+	color: lightgray;
+	
+}
+
+.button-down {
+    background: rgb(9, 128, 213);
+    color: white;
+    border: 1px solid white (9, 128, 213);
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 15px;
+   
 }
 
 .footer {
 	background-color: black;
 	color: white;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0 200px;
+	flex:1;
+	text-align: center;
 	
 }
+
